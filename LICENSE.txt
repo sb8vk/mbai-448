@@ -1,0 +1,9 @@
+This repository and its contents are proprietary and confidential. Students directly enrolled in Northwestern University’s MBAi 448 course (Applied AI for Business) taught by Alex Castrounis are permitted to clone this repository for personal use in conjunction with the course. However, no part of this repository may be disclosed, distributed, or copied outside the context of this course without the express written consent of Alex Castrounis.
+
+Unauthorized access or use of this repository or its contents is strictly prohibited. Disclosure is limited to students directly enrolled in the course.
+
+If you have received this repository or any of its contents in error, please notify legal@whyofai.com immediately and delete the original repository and its contents.
+
+© Alex Castrounis 2021-2026. All Rights Reserved.
+
+**Attribution:** This software includes contributions from Harper Pack for code-based walkthroughs and assignments. All rights related to these specific contributions are attributed to Harper Pack.

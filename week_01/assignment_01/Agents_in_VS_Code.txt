@@ -1,0 +1,458 @@
+Get started with chat in VS Code
+Chat in Visual Studio Code enables you to use natural language for AI-powered coding assistance. Ask questions about your code, get help understanding complex logic, generate new features, fix bugs, and more - all through a conversational interface.
+
+In this article, you learn how to access the different chat experiences in VS Code, submit your first prompt, write effective prompts to get better results, and customize chat for your workflow.
+
+Access chat in VS Code
+VS Code provides three ways to start an AI chat conversation, each optimized for different workflows and tasks. To access each chat experience, use the Chat menu in the VS Code title bar or the corresponding keyboard shortcuts.
+
+Screenshot of the Copilot Chat menu in the VS Code Command Center
+
+Chat view
+Press ⌃⌘I to open the Chat view in a dedicated side panel. If you prefer a larger workspace for chat, you can open it as an editor tab by selecting New Chat Editor from the chat menu or as a separate window by selecting New Chat Window.
+
+Use the Chat view for:
+
+Ongoing, multi-turn chat conversations
+Switching between different agents to ask questions, make code edits across files, or start autonomous coding workflows
+Working on features that span multiple files
+Planning and implementing complex changes
+Screenshot of the Chat view
+
+Inline chat
+Press ⌘I to start a chat conversation directly in your editor or terminal.
+
+Use inline chat for:
+
+Getting suggestions inline, right where you're working
+Understanding code in your current context
+Getting help with terminal commands and output
+Screenshot of Inline chat
+
+Quick chat
+Press ⇧⌥⌘L to open a lightweight chat overlay.
+
+Use quick chat for:
+
+Quick questions that don't require extended conversation
+Getting answers without changing your current view
+Looking up information while maintaining focus on your work
+Screenshot of Quick Chat
+
+Tip
+You can start chat directly from the command line by using the code chat command. For more information, see the VS Code Command Line documentation.
+
+Submit your first chat prompt
+Let's start by creating a basic calculator app to see how chat works in VS Code:
+
+Open the Chat view by pressing ⌃⌘I or selecting Chat from the VS Code title bar.
+
+Select Agent from the agent picker.
+
+When using an agent, chat autonomously determines what needs to be done and makes the necessary changes to your workspace.
+
+Type the following prompt in the chat input field and press Enter to submit it:
+
+Prompt
+Open in VS Code
+
+
+Create a basic calculator app with HTML, CSS, and JavaScript
+The agent applies changes directly to your workspace and might also run terminal commands, for example, to install dependencies or run build scripts.
+
+In the editor, review the suggested changes and choose to keep or discard them.
+
+Ask follow-up questions to enhance the app. For example, you might ask:
+
+Prompt
+Open in VS Code
+
+
+Add a dark mode toggle
+or
+
+Prompt
+Open in VS Code
+
+
+Style it with a modern design
+As you continue the conversation, VS Code uses the history of chat prompts and responses as context. This context enables you to have multi-turn conversations with chat to refine and improve the results.
+
+Tip
+Use voice input to interact with chat in VS Code. Learn more about using voice input with chat.
+
+Explore different language models
+VS Code offers different language models to choose from, each optimized for different tasks. Some models are designed for fast coding tasks, while others excel at complex reasoning and planning.
+
+To change the language model, use the model picker in the chat input field and select the model that best fits your needs.
+
+Screenshot of the language model picker in the Chat view, showing a dropdown list of available models.
+
+You can also add models from other model providers and use them in chat. Get more details about how to use models from other providers.
+
+Note
+The list of available models might vary based on your Copilot subscription and might change over time. See the GitHub Copilot documentation for more information about the available language models.
+
+Switch between agents
+Agents let chat assume a different role or persona optimized for specific tasks. You can switch between agents at any time during a chat session.
+
+Open the Chat view (⌃⌘I).
+
+Select the desired agent from the agent picker.
+
+Screenshot showing the Chat view with the agent picker expanded, displaying different agent options.
+
+Built-in agents
+VS Code provides four built-in agents: Agent, Plan, Ask, and Edit. For more specialized workflows, you can also create your own custom agents.
+
+Agent
+Agent is optimized for complex coding tasks based on high-level requirements that might require running terminal commands and tools. The AI operates autonomously, determining the relevant context and files to edit, planning the work needed, and iterating to resolve issues as they arise.
+
+VS Code directly applies code changes in the editor and the editor overlay controls enable you to navigate between the suggested edits and review them. The agent might invoke multiple tools to accomplish different tasks.
+
+You can customize chat with extra tools by adding MCP servers or installing extensions that contribute tools.
+
+Open chat with Agent: Stable | Insiders
+
+Get started with agents
+Tip
+For a hands-on tutorial that demonstrates working with different agent types including background and cloud agents, see the agents tutorial.
+
+To start a local agent session:
+
+Select Agent from the agent picker in the Chat view.
+
+Type a high-level prompt in the chat input field. For example, you might ask:
+
+Prompt
+Open in VS Code
+
+
+Implement a user authentication system with OAuth2 and JWT.
+or
+
+Prompt
+Open in VS Code
+
+
+Set up a CI/CD pipeline for this project.
+Use the tools picker to enable tools and give the agent more capabilities.
+
+Select Send or press Enter to submit your prompt.
+
+Review and confirm code changes and tool invocations as the agent works through your request.
+
+Tip
+VS Code helps you protect against inadvertent edits to sensitive files, such as workspace configuration settings or environment settings. Learn more about editing sensitive files.
+
+Plan
+The plan agent is optimized for creating a structured implementation plan for a coding task. Use the plan agent when you want to break down a complex feature or change into smaller, manageable steps before implementation.
+
+The plan agent generates a detailed plan outlining the steps needed and ask clarifying questions to ensure a comprehensive understanding of the task. You can then handoff the plan to an implementation agent or use it as a guide.
+
+Open chat with Plan: Stable | Insiders
+
+Get started with the plan agent
+Type a high-level prompt in the chat input field. For example, you might ask:
+
+Prompt
+Open in VS Code
+
+
+Update the application to support multi-language localization.
+or
+
+Prompt
+Open in VS Code
+
+
+Add a search feature to the application.
+Select Plan from the agent picker in the Chat view.
+
+Select Send or press Enter to submit your prompt.
+
+Answer any clarifying questions or refine the plan as needed.
+
+Select Start Implementation to hand off the plan to an implementation agent.
+
+Ask
+Ask is optimized for answering questions about your codebase, coding, and general technology concepts. Use Ask when you want to understand how something works, explore ideas, or get help with coding tasks. For larger changes across multiple files or more complex coding tasks, consider using agents.
+
+Responses can contain code blocks that you apply individually to your codebase. This works well for smaller edits within a single file. To apply a code block to your codebase, hover over the code block and select the Apply in Editor button.
+
+Open chat with Ask: Stable | Insiders
+
+Get started with Ask
+Type your prompt in the chat input field. For example, you might ask:
+
+Prompt
+Open in VS Code
+
+
+Provide 3 ways to implement a search feature in React.
+or
+
+Prompt
+Open in VS Code
+
+
+Where is the db connection configured in this project? #codebase
+Select Ask from the agent picker in the Chat view.
+
+Optionally, add context to your prompt to get more accurate responses.
+
+Select Send or press Enter to submit your prompt.
+
+Edit
+Edit is optimized for making code edits across multiple files in your project. Edit is useful for coding tasks when you have a good understanding of the changes that you want to make and which files you want to edit.
+
+VS Code directly applies the code changes in the editor, where you can review them. Use the editor overlay controls to navigate between edits with the Up and Down controls and either keep or undo changes.
+
+Open chat with Edit: Stable | Insiders
+
+Get started with Edit
+Type your request in the chat input field. For example, you might ask:
+
+Prompt
+Open in VS Code
+
+
+Refactor the authentication logic to use OAuth2.
+or
+
+Prompt
+Open in VS Code
+
+
+Add unit tests for the user service.
+Select Edit from the agent picker in the Chat view.
+
+Add context to your prompt to guide the AI to make edits in the right files.
+
+Select Send or press Enter to submit your prompt.
+
+Review the code changes in the editor by using the overlay controls.
+
+Customize chat for your workflow
+By adding context you can get more relevant responses from chat. To further tailor chat to your specific project guidelines and development practices, you can customize chat in VS Code in several ways.
+
+Custom instructions: add persistent instructions that guide chat behavior across all conversations, such as coding standards, preferred frameworks, or architectural guidelines.
+Prompt files: define reusable prompt templates that you can invoke with / commands to standardize common workflows across your team.
+Custom agents: create specialized custom agents for different personas tailored to specific development roles and tasks like code reviews, planning, or documentation.
+MCP servers: extend chat with custom capabilities by integrating external tools and services through the Model Context Protocol.
+Write effective prompts
+To get the best results from chat, keep these tips in mind when writing prompts:
+
+Add context with #-mentions: reference specific files (#file), your codebase (#codebase), or terminal output (#terminalSelection). Type # in the chat input field to view all available context items. Learn more about adding context to your prompts.
+
+Use / commands: type / to access common commands like /new, or /explain, or create your own custom prompts.
+
+Reference tools: type # followed by a tool name to extend chat capabilities. For example, #fetch retrieves web content, and #githubRepo searches GitHub repositories. Learn more about adding and using tools in chat.
+
+Next steps
+Now that you know the basics, explore more chat capabilities:
+
+Create multiple chat sessions
+Get more relevant responses by adding context to your prompts
+Expand the capabilities of chat with tools from MCP servers or extensions
+Additional resources
+Get inspired by the chat prompt examples that cover common tasks like understanding your codebase, generating code, debugging, working with notebooks, and more.
+
+Read more about GitHub Copilot and how to use it in VS Code in the GitHub Copilot documentation.
+
+Check out the VS Code Copilot Series on YouTube, where you can find more introductory content and programming-specific videos for using Copilot with Python, C#, Java, PowerShell, C++, and more.
+
+Help and support
+Was this documentation helpful?
+Yes, this page was helpfulNo, this page was not helpful
+Still need help?
+Ask the community
+Request features
+Report issues
+Help us improve
+All VS Code docs are open source. See something that's wrong or unclear? Submit a pull request.
+____
+Text copied from https://code.visualstudio.com/docs/copilot/chat/copilot-chat
+
+---
+##Custom agents in VS Code
+Custom agents enable you to configure the AI to adopt different personas tailored to specific development roles and tasks. For example, you might create agents for a security reviewer, planner, solution architect, or other specialized roles. Each persona can have its own behavior, available tools, and instructions.
+
+You can also use handoffs to create guided workflows between agents, allowing you to transition seamlessly from one specialized agent to another with a single click. For example, you could move from planning agent directly into implementation agent, or hand off to a code reviewer with the relevant context.
+
+This article describes how to create and manage custom agents in VS Code.
+
+Note
+Custom agents are available as of VS Code release 1.106. Custom agents were previously known as custom chat modes.
+
+What are custom agents?
+The built-in agents provide general-purpose configurations for chat in VS Code. For a more tailored chat experience, you can create your own custom agents.
+
+Custom agents consist of a set of instructions and tools that are applied when you switch to that agent. For example, a "Plan" agent could include instructions for generating an implementation plan and only use read-only tools. By creating a custom agent, you can quickly switch to that specific configuration without having to manually select relevant tools and instructions each time.
+
+Custom agents are defined in a .agent.md Markdown file, and can be stored in your workspace for others to use, or in your user profile, where you can reuse them across different workspaces.
+
+You can reuse your custom agents in background agents and cloud agents, enabling you to run autonomous tasks with the same specialized configurations.
+
+Why use custom agents?
+Different tasks require different capabilities. A planning agent might only need read-only tools for research and analysis to prevent accidental code changes, while an implementation agent would need full editing capabilities. Custom agents let you specify exactly which tools are available for each task, ensuring the AI has the right capabilities for the job.
+
+Custom agents also let you provide specialized instructions that define how the AI should operate. For instance, a planning agent could instruct the AI to collect project context and generate a detailed implementation plan, while a code review agent might focus on identifying security vulnerabilities and suggesting improvements. These specialized instructions ensure consistent, task-appropriate responses every time you switch to that agent.
+
+Note
+Subagents can run with a custom agent. Learn more about running subagents with custom agents (experimental).
+
+Handoffs
+Handoffs enable you to create guided sequential workflows that transition between agents with suggested next steps. After a chat response completes, handoff buttons appear that let users move to the next agent with relevant context and a pre-filled prompt.
+
+Handoffs are useful for orchestrating multi-step workflows, that give developer's control for reviewing and approving each step before moving to the next one. For example:
+
+Planning → Implementation: Generate a plan in planning agent, then hand off to implementation agent to start coding.
+Implementation → Review: Complete implementation, then switch to a code review agent to check for quality and security issues.
+Write Failing Tests → Write Passing Tests: Generate failing tests that are easier to review than big implementations, then hand off to make those tests pass by implementing the required code changes.
+To define handoffs in your agent file, add them to the frontmatter. Each handoff specifies the target agent, the button label, and an optional prompt to send:
+
+Markdown
+
+---
+description: Generate an implementation plan
+tools: ['search', 'fetch']
+handoffs:
+  - label: Start Implementation
+    agent: implementation
+    prompt: Now implement the plan outlined above.
+    send: false
+---
+When users see the handoff button and select it, they switch to the target agent with the prompt pre-filled. If send: true, the prompt automatically submits to start the next workflow step.
+
+Custom agent file structure
+Custom agent files are Markdown files and use the .agent.md extension and have the following structure.
+
+Note
+VS Code detects any .md files in the .github/agents folder of your workspace as custom agents.
+
+Header (optional)
+The header is formatted as YAML frontmatter with the following fields:
+
+Expand table
+Field	Description
+description	A brief description of the custom agent, shown as placeholder text in the chat input field.
+name	The name of the custom agent. If not specified, the file name is used.
+argument-hint	Optional hint text shown in the chat input field to guide users on how to interact with the custom agent.
+tools	A list of tool or tool set names that are available for this custom agent. Can include built-in tools, tool sets, MCP tools, or tools contributed by extensions. To include all tools of an MCP server, use the <server name>/* format.
+Learn more about tools in chat.
+model	The AI model to use when running the prompt. If not specified, the currently selected model in model picker is used.
+infer	Optional boolean flag to enable use of the custom agent as a subagent (default is true).
+target	The target environment or context for the custom agent (vscode or github-copilot).
+mcp-servers	Optional list of Model Context Protocol (MCP) server config json to use with custom agents in GitHub Copilot (target: github-copilot).
+handoffs	Optional list of suggested next actions or prompts to transition between custom agents. Handoff buttons appear as interactive suggestions after a chat response completes.
+handoffs.label	The display text shown on the handoff button.
+handoffs.agent	The target agent identifier to switch to.
+handoffs.prompt	The prompt text to send to the target agent.
+handoffs.send	Optional boolean flag to auto-submit the prompt (default is false)
+Note
+If a given tool is not available when using the custom agent, it is ignored.
+
+Body
+The custom agent file body contains the custom agent implementation, formatted as Markdown. This is where you provide specific prompts, guidelines, or any other relevant information that you want the AI to follow when in this custom agent.
+
+You can reference other files by using Markdown links, for example to reuse instructions files.
+
+To reference agent tools in the body text, use the #tool:<tool-name> syntax. For example, to reference the githubRepo tool, use #tool:githubRepo.
+
+When you select the custom agent in the Chat view, the guidelines in the custom agent file body are prepended to the user chat prompt.
+
+Custom agent example
+The following code snippet shows an example of a "Plan" custom agent file that generates an implementation plan and doesn't make any code edits. For more community-contributed examples, see the Awesome Copilot repository.
+
+Markdown
+
+---
+description: Generate an implementation plan for new features or refactoring existing code.
+name: Planner
+tools: ['fetch', 'githubRepo', 'search', 'usages']
+model: Claude Sonnet 4
+handoffs:
+  - label: Implement Plan
+    agent: agent
+    prompt: Implement the plan outlined above.
+    send: false
+---
+# Planning instructions
+You are in planning mode. Your task is to generate an implementation plan for a new feature or for refactoring existing code.
+Don't make any code edits, just generate a plan.
+
+The plan consists of a Markdown document that describes the implementation plan, including the following sections:
+
+* Overview: A brief description of the feature or refactoring task.
+* Requirements: A list of requirements for the feature or refactoring task.
+* Implementation Steps: A detailed list of steps to implement the feature or refactoring task.
+* Testing: A list of tests that need to be implemented to verify the feature or refactoring task.
+Create a custom agent
+You can create a custom agent file in your workspace or user profile.
+
+Select Configure Custom Agents from the agents dropdown and then select Create new custom agent or run the Chat: New Custom Agent command in the Command Palette (⇧⌘P).
+
+Choose the location where the custom agent file should be created.
+
+Workspace: create the custom agent definition file in the .github/agents folder of your workspace to only use it within that workspace
+
+User profile: create the custom agent definition file in the current profile folder to use it across all your workspaces
+
+Enter a file name for the custom agent. This is the default name that appears in the agents dropdown.
+
+Provide the details for the custom agent in the newly created .agent.md file.
+
+Fill in the YAML frontmatter at the top of the file to configure the custom agent's name, description, tools, and other settings.
+Add instructions for the custom agent in the body of the file.
+To update a custom agent definition file, select Configure Custom Agents from the agents dropdown, and then select a custom agent from the list to modify it.
+
+Note
+If you've previously created custom chat modes with a .chatmode.md extension in the .github/chatmodes folder of your workspace, VS Code still recognizes those files as custom agents. You can use a Quick Fix action to rename and move them to the new .github/agents folder with a .agent.md extension.
+
+Customize the agents dropdown list
+If you have multiple custom agents, you can customize which ones appear in the agents dropdown. To show or hide specific custom agents:
+
+Select Configure Custom Agents from the agents dropdown.
+
+Hover over a custom agent in the list, and then select the eye icon to show or hide it from the agents dropdown.
+
+Tool list priority
+You can specify the list of available tools for both a custom agent and prompt file by using the tools metadata field. Prompt files can also reference a custom agent by using the agent metadata field.
+
+The list of available tools in chat is determined by the following priority order:
+
+Tools specified in the prompt file (if any)
+Tools from the referenced custom agent in the prompt file (if any)
+Default tools for the selected agent (if any)
+Share custom agents across teams (Experimental)
+To share custom agents across your team, you can create a workspace-level custom agent (.github/agents folder). If you want to share custom agents across multiple workspaces within your organization, you can define them at the GitHub organization level.
+
+VS Code automatically detects custom agents defined at the organization level to which your account has access. These agents appear in the Agents dropdown in chat alongside the built-in agents, and your personal and workspace custom agents.
+
+To enable discovery of organization-level custom agents, set github.copilot.chat.customAgents.showOrganizationAndEnterpriseAgents to true.
+
+Learn how you can create custom agents for your organization in the GitHub documentation.
+
+Frequently asked questions
+Are custom agents different from chat modes?
+Custom agents were previously known as custom chat modes. The functionality remains the same, but the terminology has been updated to better reflect their purpose in customizing AI behavior for specific tasks.
+
+VS Code still recognizes any existing .chatmode.md files as custom agents. You can use a Quick Fix action to rename and move them to the new .github/agents folder with a .agent.md extension.
+
+Related resources
+Customize AI with custom instructions
+Create reusable prompt files
+Use tools in chat
+Help and support
+Was this documentation helpful?
+Yes, this page was helpfulNo, this page was not helpful
+Still need help?
+Ask the community
+Request features
+Report issues
+Help us improve
+All VS Code docs are open source. See something that's wrong or unclear? Submit a pull request.
+
+____
+Text copied from https://code.visualstudio.com/docs/copilot/customization/custom-agents
