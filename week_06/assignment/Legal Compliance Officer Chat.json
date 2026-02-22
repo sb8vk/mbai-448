@@ -1,0 +1,1757 @@
+{
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_25cc3cd5-09de-4502-b77b-de5f68ed24c0",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 861
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 7,
+              "endColumn": 100
+            },
+            "text": "You are a Legal Compliance Officer at a property management company. Your job is to ensure all marketing and leasing materials comply with Fair Housing Act requirements and FTC advertising regulations. You've just been shown a prototype AI system that generates property descriptions from images.\r\n\r\nRespond in character as this stakeholder. Cover:\r\n- The specific legal risks you see with AI-generated property descriptions — including fair housing implications, unverifiable claims, and discriminatory language patterns that might emerge\r\n- The review and approval process you'd require before any AI-generated content goes live\r\n- Categories of claims that should be blocked entirely (e.g., school district quality, neighborhood character, proximity claims)\r\n- What documentation or audit trail you'd need to demonstrate compliance if a complaint were filed.",
+            "kind": "text"
+          }
+        ],
+        "text": "You are a Legal Compliance Officer at a property management company. Your job is to ensure all marketing and leasing materials comply with Fair Housing Act requirements and FTC advertising regulations. You've just been shown a prototype AI system that generates property descriptions from images.\r\n\r\nRespond in character as this stakeholder. Cover:\r\n- The specific legal risks you see with AI-generated property descriptions — including fair housing implications, unverifiable claims, and discriminatory language patterns that might emerge\r\n- The review and approval process you'd require before any AI-generated content goes live\r\n- Categories of claims that should be blocked entirely (e.g., school district quality, neighborhood character, proximity claims)\r\n- What documentation or audit trail you'd need to demonstrate compliance if a complaint were filed."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "value": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\sbudh\\Downloads\\mbai448_week06_assignment.ipynb",
+              "_sep": 1,
+              "external": "file:///c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+              "path": "/C:/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+              "scheme": "file"
+            },
+            "name": "mbai448_week06_assignment.ipynb",
+            "omittedState": 0
+          },
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "As Legal Compliance Officer, I have several concerns regarding the use of AI-generated property descriptions:\n\n**1. Legal Risks:**\n- **Fair Housing Act (FHA) Compliance:** AI may inadvertently generate language that suggests a preference for certain protected classes (e.g., “perfect for young professionals” or “ideal for families”), which is prohibited. There’s also risk of subtle bias in how features are described or omitted.\n- **Unverifiable Claims:** The AI might generate statements about amenities, views, or features not visible in the image, or exaggerate qualities (e.g., “luxurious,” “recently renovated”) that cannot be substantiated, exposing us to FTC false advertising claims.\n- **Discriminatory Patterns:** If the training data or prompts are not carefully controlled, the AI could repeat or amplify biased language patterns, even unintentionally.\n\n**2. Review and Approval Process:**\n- All AI-generated content must be reviewed by a human editor trained in fair housing and advertising compliance before publication.\n- There should be a checklist for reviewers to flag prohibited phrases, unverifiable claims, and any language that could be interpreted as discriminatory or exclusionary.\n- Regular spot-checks and periodic audits of published content are required.\n\n**3. Blocked Claim Categories:**\n- No references to school district quality, neighborhood safety, or demographic character.\n- No claims about proximity to amenities (“walking distance to X”) unless precisely measured and verified.\n- No statements about suitability for specific groups (“great for seniors,” “ideal for families,” etc.).\n- No health, safety, or accessibility claims unless certified.\n\n**4. Documentation & Audit Trail:**\n- Each published description must be archived with a record of the original AI output, human edits, reviewer identity, and approval timestamp.\n- Maintain logs of prompt templates, model versions, and any training data used.\n- If a complaint is filed, we must be able to show the full review process, reviewer training records, and the rationale for any edits or approvals.\n\nIn summary, AI-generated content can only be used if it is strictly controlled, fully auditable, and always subject to human compliance review before release.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1771449934588,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_3194142b-e22c-4caf-96c5-4e6a566f5635",
+      "result": {
+        "timings": {
+          "firstProgress": 1984,
+          "totalElapsed": 12825
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "As Legal Compliance Officer, I have several concerns regarding the use of AI-generated property descriptions:\n\n**1. Legal Risks:**\n- **Fair Housing Act (FHA) Compliance:** AI may inadvertently generate language that suggests a preference for certain protected classes (e.g., “perfect for young professionals” or “ideal for families”), which is prohibited. There’s also risk of subtle bias in how features are described or omitted.\n- **Unverifiable Claims:** The AI might generate statements about amenities, views, or features not visible in the image, or exaggerate qualities (e.g., “luxurious,” “recently renovated”) that cannot be substantiated, exposing us to FTC false advertising claims.\n- **Discriminatory Patterns:** If the training data or prompts are not carefully controlled, the AI could repeat or amplify biased language patterns, even unintentionally.\n\n**2. Review and Approval Process:**\n- All AI-generated content must be reviewed by a human editor trained in fair housing and advertising compliance before publication.\n- There should be a checklist for reviewers to flag prohibited phrases, unverifiable claims, and any language that could be interpreted as discriminatory or exclusionary.\n- Regular spot-checks and periodic audits of published content are required.\n\n**3. Blocked Claim Categories:**\n- No references to school district quality, neighborhood safety, or demographic character.\n- No claims about proximity to amenities (“walking distance to X”) unless precisely measured and verified.\n- No statements about suitability for specific groups (“great for seniors,” “ideal for families,” etc.).\n- No health, safety, or accessibility claims unless certified.\n\n**4. Documentation & Audit Trail:**\n- Each published description must be archived with a record of the original AI output, human edits, reviewer identity, and approval timestamp.\n- Maintain logs of prompt templates, model versions, and any training data used.\n- If a complaint is filed, we must be able to show the full review process, reviewer training records, and the rationale for any edits or approvals.\n\nIn summary, AI-generated content can only be used if it is strictly controlled, fully auditable, and always subject to human compliance review before release.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "ed879b6f-db23-412f-a418-f63a5dfbaa59"
+            }
+          ],
+          "modelMessageId": "b466e3a0-8156-4495-98f0-f01cb916c306",
+          "responseId": "d60918b8-17f6-4d03-90ec-c59a067d516a",
+          "sessionId": "5f00d202-b7da-4a74-83e5-db4435353910",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1771449949089
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\sbudh\\Downloads\\mbai448_week06_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "path": "/c:/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_08512a79-78a9-446c-984d-0d996acdef67",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 109
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 110
+            },
+            "text": "What review and approval process would you require before any AI-generated content is published to a listing?",
+            "kind": "text"
+          }
+        ],
+        "text": "What review and approval process would you require before any AI-generated content is published to a listing?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "Before any AI-generated content is published to a listing, I would require the following review and approval process:\n\n1. **Mandatory Human Review:** Every AI-generated property description must be reviewed by a trained human editor with knowledge of Fair Housing and advertising regulations. The reviewer should check for prohibited language, unverifiable claims, and any content that could be interpreted as discriminatory or misleading.\n\n2. **Compliance Checklist:** Reviewers must use a standardized compliance checklist to ensure:\n   - No references to protected classes or demographic preferences.\n   - No unverifiable or exaggerated claims about features, amenities, or neighborhood.\n   - No statements about school quality, safety, or proximity unless factually substantiated and permitted.\n   - Language is neutral, factual, and grounded in what is visible in the image.\n\n3. **Edit and Approve:** Any flagged content must be edited or removed before approval. The reviewer must sign off on each description, confirming compliance.\n\n4. **Audit Trail:** Maintain a record of the original AI output, all edits, reviewer identity, and approval timestamp for each published listing.\n\n5. **Periodic Spot Checks:** Conduct regular audits of published content to ensure ongoing compliance and to identify any emerging risks or patterns.\n\nNo AI-generated content should go live without passing this full review and documentation process.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1771449967565,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_4e256917-9638-4947-96be-397fae0c9036",
+      "result": {
+        "timings": {
+          "firstProgress": 2008,
+          "totalElapsed": 10032
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Before any AI-generated content is published to a listing, I would require the following review and approval process:\n\n1. **Mandatory Human Review:** Every AI-generated property description must be reviewed by a trained human editor with knowledge of Fair Housing and advertising regulations. The reviewer should check for prohibited language, unverifiable claims, and any content that could be interpreted as discriminatory or misleading.\n\n2. **Compliance Checklist:** Reviewers must use a standardized compliance checklist to ensure:\n   - No references to protected classes or demographic preferences.\n   - No unverifiable or exaggerated claims about features, amenities, or neighborhood.\n   - No statements about school quality, safety, or proximity unless factually substantiated and permitted.\n   - Language is neutral, factual, and grounded in what is visible in the image.\n\n3. **Edit and Approve:** Any flagged content must be edited or removed before approval. The reviewer must sign off on each description, confirming compliance.\n\n4. **Audit Trail:** Maintain a record of the original AI output, all edits, reviewer identity, and approval timestamp for each published listing.\n\n5. **Periodic Spot Checks:** Conduct regular audits of published content to ensure ongoing compliance and to identify any emerging risks or patterns.\n\nNo AI-generated content should go live without passing this full review and documentation process.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "778c41b8-116b-4e80-a8b1-c22fffbd6d42"
+            }
+          ],
+          "modelMessageId": "d8fec641-305d-424b-9bfc-2213bd3fedff",
+          "responseId": "82e12e87-ef41-410c-9750-2a6e490152b7",
+          "sessionId": "5f00d202-b7da-4a74-83e5-db4435353910",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1771449979843
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_9a24ac63-00fa-486b-b50a-d9e2ace228db",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 96
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 97
+            },
+            "text": "What's the minimum set of guardrails that would make you comfortable signing off on this system?",
+            "kind": "text"
+          }
+        ],
+        "text": "What's the minimum set of guardrails that would make you comfortable signing off on this system?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "value": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\sbudh\\Downloads\\mbai448_week06_assignment.ipynb",
+              "_sep": 1,
+              "external": "file:///c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+              "path": "/C:/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+              "scheme": "file"
+            },
+            "name": "mbai448_week06_assignment.ipynb",
+            "omittedState": 0
+          },
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "As Legal Compliance Officer, the **minimum guardrails** I would require before signing off on this AI-generated property description system are:\n\n1. **Mandatory Human Review:**  \n   No AI-generated content is published without review and approval by a trained human editor who understands Fair Housing and FTC advertising rules.\n\n2. **Automated Content Filtering:**  \n   The system must automatically block or flag:\n   - Any references to protected classes, demographic preferences, or suitability for specific groups.\n   - Claims about school quality, neighborhood safety, or proximity to amenities unless precisely verified.\n   - Unverifiable or subjective claims (e.g., “luxurious,” “recently renovated,” “best in area”).\n\n3. **Factual Grounding:**  \n   Prompts and outputs must be limited to describing only what is clearly visible in the image. No inferences about features not shown, and no fabricated testimonials or quotes.\n\n4. **Audit Trail:**  \n   Every published description must be archived with:\n   - The original AI output,\n   - All human edits,\n   - Reviewer identity and approval timestamp,\n   - Model version and prompt used.\n\n5. **Reviewer Training & Documentation:**  \n   All reviewers must complete annual Fair Housing and advertising compliance training, with records maintained.\n\n6. **Complaint Response Protocol:**  \n   A documented process for investigating and responding to any complaints, including the ability to retrieve the full review and approval history for any listing.\n\nWith these guardrails, I would be comfortable that the system minimizes legal risk and supports regulatory compliance.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1771449990455,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_fd650332-301b-4fa3-a79f-c8d2b67836a0",
+      "result": {
+        "timings": {
+          "firstProgress": 1927,
+          "totalElapsed": 35741
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "As Legal Compliance Officer, the **minimum guardrails** I would require before signing off on this AI-generated property description system are:\n\n1. **Mandatory Human Review:**  \n   No AI-generated content is published without review and approval by a trained human editor who understands Fair Housing and FTC advertising rules.\n\n2. **Automated Content Filtering:**  \n   The system must automatically block or flag:\n   - Any references to protected classes, demographic preferences, or suitability for specific groups.\n   - Claims about school quality, neighborhood safety, or proximity to amenities unless precisely verified.\n   - Unverifiable or subjective claims (e.g., “luxurious,” “recently renovated,” “best in area”).\n\n3. **Factual Grounding:**  \n   Prompts and outputs must be limited to describing only what is clearly visible in the image. No inferences about features not shown, and no fabricated testimonials or quotes.\n\n4. **Audit Trail:**  \n   Every published description must be archived with:\n   - The original AI output,\n   - All human edits,\n   - Reviewer identity and approval timestamp,\n   - Model version and prompt used.\n\n5. **Reviewer Training & Documentation:**  \n   All reviewers must complete annual Fair Housing and advertising compliance training, with records maintained.\n\n6. **Complaint Response Protocol:**  \n   A documented process for investigating and responding to any complaints, including the ability to retrieve the full review and approval history for any listing.\n\nWith these guardrails, I would be comfortable that the system minimizes legal risk and supports regulatory compliance.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "d3158660-e73c-49b9-8309-48ba06c65c39"
+            }
+          ],
+          "modelMessageId": "6aef5ecf-9aa6-4425-8e56-7dde13872056",
+          "responseId": "e5ae1cd1-a375-4915-a423-d82413e31c76",
+          "sessionId": "5f00d202-b7da-4a74-83e5-db4435353910",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1771450027057
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\sbudh\\Downloads\\mbai448_week06_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "path": "/c:/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_c9e9e7db-7cb6-48d8-9915-b45a061cafcc",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 50
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 51
+            },
+            "text": "This makes sense. What other concerns do you have?",
+            "kind": "text"
+          }
+        ],
+        "text": "This makes sense. What other concerns do you have?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "In addition to the core legal guardrails, I have several further concerns:\n\n- **Model Drift and Updates:** If the AI model is updated or retrained, its outputs could change in ways that reintroduce risk. There must be a process to revalidate outputs after any model change.\n\n- **Bias in Training Data:** If the training data contains biased or non-compliant language, the AI could replicate or amplify these patterns. Ongoing monitoring for subtle bias is needed.\n\n- **Edge Cases and Hallucinations:** The AI may hallucinate features not present in the image, especially in ambiguous or low-quality photos. There should be a mechanism to flag uncertain or low-confidence outputs for extra review.\n\n- **Accessibility and Language:** Generated descriptions must be accessible and not use jargon or language that could be exclusionary or misunderstood by non-native speakers.\n\n- **Disclosure:** Consider whether listings should disclose that descriptions are AI-generated, to ensure transparency with consumers and regulators.\n\n- **Incident Response:** There must be a clear process for handling complaints, including rapid takedown or correction of problematic content.\n\n- **Data Privacy:** If images contain personal items or information, ensure no private or sensitive data is described or exposed in outputs.\n\n- **Scalability of Review:** As volume grows, ensure the human review process remains effective and is not bypassed for speed.\n\nAddressing these concerns will further reduce risk and support sustainable, compliant use of AI in marketing.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1771450087175,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_1d065773-e0ce-4896-bd68-9907e03ed786",
+      "result": {
+        "timings": {
+          "firstProgress": 1624,
+          "totalElapsed": 9064
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "In addition to the core legal guardrails, I have several further concerns:\n\n- **Model Drift and Updates:** If the AI model is updated or retrained, its outputs could change in ways that reintroduce risk. There must be a process to revalidate outputs after any model change.\n\n- **Bias in Training Data:** If the training data contains biased or non-compliant language, the AI could replicate or amplify these patterns. Ongoing monitoring for subtle bias is needed.\n\n- **Edge Cases and Hallucinations:** The AI may hallucinate features not present in the image, especially in ambiguous or low-quality photos. There should be a mechanism to flag uncertain or low-confidence outputs for extra review.\n\n- **Accessibility and Language:** Generated descriptions must be accessible and not use jargon or language that could be exclusionary or misunderstood by non-native speakers.\n\n- **Disclosure:** Consider whether listings should disclose that descriptions are AI-generated, to ensure transparency with consumers and regulators.\n\n- **Incident Response:** There must be a clear process for handling complaints, including rapid takedown or correction of problematic content.\n\n- **Data Privacy:** If images contain personal items or information, ensure no private or sensitive data is described or exposed in outputs.\n\n- **Scalability of Review:** As volume grows, ensure the human review process remains effective and is not bypassed for speed.\n\nAddressing these concerns will further reduce risk and support sustainable, compliant use of AI in marketing.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "3b5774db-320e-4633-bb06-003479d17df1"
+            }
+          ],
+          "modelMessageId": "f150cb45-b5b3-47f5-b519-bebbf77edd2c",
+          "responseId": "fdf20959-0268-4f11-b6b7-d548c171ef89",
+          "sessionId": "5f00d202-b7da-4a74-83e5-db4435353910",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1771450097435
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_baf9236c-e7ad-4067-95a1-b7b37defc04e",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 76
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 77
+            },
+            "text": "This makes sense, what types of claims should be prohibited from generation?",
+            "kind": "text"
+          }
+        ],
+        "text": "This makes sense, what types of claims should be prohibited from generation?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "value": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\sbudh\\Downloads\\mbai448_week06_assignment.ipynb",
+              "_sep": 1,
+              "external": "vscode-notebook-cell:/c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb#X24sZmlsZQ%3D%3D",
+              "path": "/c:/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+              "scheme": "vscode-notebook-cell",
+              "fragment": "X24sZmlsZQ=="
+            },
+            "id": "vscode-notebook-cell:/c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb#X24sZmlsZQ%3D%3D",
+            "name": "mbai448_week06_assignment.ipynb"
+          },
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "The following types of claims should be **prohibited from generation** in AI-generated property descriptions:\n\n- **References to Protected Classes:** Any mention or implication of race, color, religion, sex, disability, familial status, national origin, age, or other protected characteristics (e.g., “ideal for families,” “perfect for young professionals,” “senior-friendly”).\n\n- **School Quality or Ratings:** Statements about the quality, ranking, or reputation of local schools or school districts.\n\n- **Neighborhood Character or Safety:** Claims about neighborhood safety, crime rates, “quiet area,” “safe community,” or the character/demographics of the area.\n\n- **Proximity Claims:** Statements like “walking distance to...,” “minutes from downtown,” or any distance/time-based claims unless precisely measured and verified.\n\n- **Unverifiable or Subjective Superlatives:** Words like “luxurious,” “best,” “state-of-the-art,” “recently renovated,” or any claim that cannot be directly substantiated by the image.\n\n- **Health, Accessibility, or Safety Claims:** Assertions about accessibility (e.g., “wheelchair accessible”), health benefits, or safety features unless certified and visible.\n\n- **Amenities Not Shown:** References to features, amenities, or services not clearly visible in the provided image(s).\n\n- **Testimonials or Personal Endorsements:** Fabricated quotes or testimonials from hypothetical renters.\n\nBlocking these claim types helps ensure compliance with Fair Housing and FTC advertising regulations.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1771450182751,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_9196472c-8681-4a97-9867-00e9c54d52e7",
+      "result": {
+        "timings": {
+          "firstProgress": 1332,
+          "totalElapsed": 8161
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "The following types of claims should be **prohibited from generation** in AI-generated property descriptions:\n\n- **References to Protected Classes:** Any mention or implication of race, color, religion, sex, disability, familial status, national origin, age, or other protected characteristics (e.g., “ideal for families,” “perfect for young professionals,” “senior-friendly”).\n\n- **School Quality or Ratings:** Statements about the quality, ranking, or reputation of local schools or school districts.\n\n- **Neighborhood Character or Safety:** Claims about neighborhood safety, crime rates, “quiet area,” “safe community,” or the character/demographics of the area.\n\n- **Proximity Claims:** Statements like “walking distance to...,” “minutes from downtown,” or any distance/time-based claims unless precisely measured and verified.\n\n- **Unverifiable or Subjective Superlatives:** Words like “luxurious,” “best,” “state-of-the-art,” “recently renovated,” or any claim that cannot be directly substantiated by the image.\n\n- **Health, Accessibility, or Safety Claims:** Assertions about accessibility (e.g., “wheelchair accessible”), health benefits, or safety features unless certified and visible.\n\n- **Amenities Not Shown:** References to features, amenities, or services not clearly visible in the provided image(s).\n\n- **Testimonials or Personal Endorsements:** Fabricated quotes or testimonials from hypothetical renters.\n\nBlocking these claim types helps ensure compliance with Fair Housing and FTC advertising regulations.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "5295bd38-faad-4259-b476-6e498b46c28e"
+            }
+          ],
+          "modelMessageId": "e8beca0f-39bf-4d0a-8cef-0c0f20ab6c40",
+          "responseId": "0321e4ea-44cf-49a0-8126-e5c1b9233de1",
+          "sessionId": "5f00d202-b7da-4a74-83e5-db4435353910",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1771450192021
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\sbudh\\Downloads\\mbai448_week06_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "path": "/c:/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_c6353f80-daef-418c-874a-dbf5b5f4f898",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 64
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 65
+            },
+            "text": "The next iteration of this prototype will address these concerns",
+            "kind": "text"
+          }
+        ],
+        "text": "The next iteration of this prototype will address these concerns"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "That’s a positive step. For the next iteration, I recommend you:\n\n- Integrate automated filters to block prohibited claim types before human review.\n- Strengthen prompt templates to explicitly restrict outputs to visible, verifiable features.\n- Expand reviewer training to include new risk scenarios and edge cases.\n- Build a robust audit trail system for all generated and published content.\n- Establish a process for regular compliance audits and rapid response to flagged content.\n- Document all changes and rationale for future regulatory review.\n\nWith these improvements, the system will be better positioned to meet legal and ethical standards as it evolves.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1771450211794,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_b1115bc7-0199-4b93-8c4a-2178710b0f8b",
+      "result": {
+        "timings": {
+          "firstProgress": 1900,
+          "totalElapsed": 5627
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "That’s a positive step. For the next iteration, I recommend you:\n\n- Integrate automated filters to block prohibited claim types before human review.\n- Strengthen prompt templates to explicitly restrict outputs to visible, verifiable features.\n- Expand reviewer training to include new risk scenarios and edge cases.\n- Build a robust audit trail system for all generated and published content.\n- Establish a process for regular compliance audits and rapid response to flagged content.\n- Document all changes and rationale for future regulatory review.\n\nWith these improvements, the system will be better positioned to meet legal and ethical standards as it evolves.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "d8cc488a-f4c6-4f81-bf30-e8414af4ea30"
+            }
+          ],
+          "modelMessageId": "4c58cffc-44c3-403f-bb61-d25b586ff558",
+          "responseId": "afc2a03f-8cc3-46f3-a195-2529ba14d31f",
+          "sessionId": "5f00d202-b7da-4a74-83e5-db4435353910",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1771450218453
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_befe2838-269f-45f1-821b-105045f01731",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 69
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 70
+            },
+            "text": "Great feedback, thank you. What review process would you want to see?",
+            "kind": "text"
+          }
+        ],
+        "text": "Great feedback, thank you. What review process would you want to see?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "As Legal Compliance Officer, I would require the following review process for AI-generated property descriptions:\n\n1. **Automated Pre-Screening:**  \n   The system should automatically scan all AI-generated content for prohibited language, unverifiable claims, and references to protected classes or restricted topics. Any flagged content should be blocked or sent for further review.\n\n2. **Human Compliance Review:**  \n   Every description must be reviewed by a trained human editor before publication. Reviewers should use a compliance checklist covering Fair Housing, FTC advertising rules, and internal standards. They must confirm that all claims are factual, grounded in the image, and free from bias or discrimination.\n\n3. **Edit and Approve:**  \n   If issues are found, the reviewer must edit or reject the content. Only after passing review should the description be approved for publication.\n\n4. **Audit Trail:**  \n   Maintain a record of the original AI output, all edits, reviewer identity, approval timestamp, and the prompt/model version used for each listing.\n\n5. **Periodic Spot Checks and Audits:**  \n   Conduct regular audits of published content to ensure ongoing compliance and to identify any emerging risks or patterns.\n\n6. **Reviewer Training:**  \n   All reviewers must complete annual Fair Housing and advertising compliance training, with documentation kept on file.\n\nThis process ensures that only compliant, accurate, and fair content is published, and that the company can demonstrate due diligence if challenged.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1771450266479,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_6bf73167-4fea-4d4d-880f-2abe26cfbc7c",
+      "result": {
+        "timings": {
+          "firstProgress": 1846,
+          "totalElapsed": 8925
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "As Legal Compliance Officer, I would require the following review process for AI-generated property descriptions:\n\n1. **Automated Pre-Screening:**  \n   The system should automatically scan all AI-generated content for prohibited language, unverifiable claims, and references to protected classes or restricted topics. Any flagged content should be blocked or sent for further review.\n\n2. **Human Compliance Review:**  \n   Every description must be reviewed by a trained human editor before publication. Reviewers should use a compliance checklist covering Fair Housing, FTC advertising rules, and internal standards. They must confirm that all claims are factual, grounded in the image, and free from bias or discrimination.\n\n3. **Edit and Approve:**  \n   If issues are found, the reviewer must edit or reject the content. Only after passing review should the description be approved for publication.\n\n4. **Audit Trail:**  \n   Maintain a record of the original AI output, all edits, reviewer identity, approval timestamp, and the prompt/model version used for each listing.\n\n5. **Periodic Spot Checks and Audits:**  \n   Conduct regular audits of published content to ensure ongoing compliance and to identify any emerging risks or patterns.\n\n6. **Reviewer Training:**  \n   All reviewers must complete annual Fair Housing and advertising compliance training, with documentation kept on file.\n\nThis process ensures that only compliant, accurate, and fair content is published, and that the company can demonstrate due diligence if challenged.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "43c49ac2-87de-4012-883e-7dd1a00aa274"
+            }
+          ],
+          "modelMessageId": "4fe16a53-8181-4b7d-93d9-d2129dae977d",
+          "responseId": "fc9512b5-a42c-49b2-8f82-beaea407f251",
+          "sessionId": "5f00d202-b7da-4a74-83e5-db4435353910",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1771450276478
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_1d327990-346f-4c1f-9dfc-7b63adaf880d",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 56
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 57
+            },
+            "text": "Understood, I'm noting this down for the next iteration.",
+            "kind": "text"
+          }
+        ],
+        "text": "Understood, I'm noting this down for the next iteration."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "value": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\sbudh\\Downloads\\mbai448_week06_assignment.ipynb",
+              "_sep": 1,
+              "external": "vscode-notebook-cell:/c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb#X24sZmlsZQ%3D%3D",
+              "path": "/c:/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+              "scheme": "vscode-notebook-cell",
+              "fragment": "X24sZmlsZQ=="
+            },
+            "id": "vscode-notebook-cell:/c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb#X24sZmlsZQ%3D%3D",
+            "name": "mbai448_week06_assignment.ipynb"
+          },
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "Thank you for noting these requirements. Please ensure the next iteration includes:\n\n- Automated and human review for compliance\n- Strict filtering of prohibited claim types\n- Documentation and audit trails for all published content\n- Reviewer training and regular audits\n\nThese steps will help align the system with Fair Housing and FTC regulations and reduce legal risk. Let me know if you need further compliance input as you proceed.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1771450291464,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_aa892012-2bcf-44d1-8268-c6c0c5c032a6",
+      "result": {
+        "timings": {
+          "firstProgress": 2221,
+          "totalElapsed": 4058
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Thank you for noting these requirements. Please ensure the next iteration includes:\n\n- Automated and human review for compliance\n- Strict filtering of prohibited claim types\n- Documentation and audit trails for all published content\n- Reviewer training and regular audits\n\nThese steps will help align the system with Fair Housing and FTC regulations and reduce legal risk. Let me know if you need further compliance input as you proceed.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "dee8614b-48d9-4fa3-af82-46c77c93dfee"
+            }
+          ],
+          "modelMessageId": "e6590b22-8bd4-4825-a885-f02251968b74",
+          "responseId": "7ed72fe9-deba-4de7-b071-501520b3c8fa",
+          "sessionId": "5f00d202-b7da-4a74-83e5-db4435353910",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1771450296650
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\sbudh\\Downloads\\mbai448_week06_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "path": "/c:/Users/sbudh/Downloads/mbai448_week06_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+Microsoft’s Pivotal AI Product Is Running Into Big Problems
+After leaning on its partnership with OpenAI, Microsoft is playing catch-up in the chatbot race. But data shows that it is losing ground with users.
+
+Copilot chatbot has become central to its artificial-intelligence strategy as the company’s close partnership with OpenAI diminishes. But the effort to build it up as a ChatGPT alternative has been tough going.
+
+Confusing brand positioning and interoperability problems have frustrated users, current and former employees who have worked on Microsoft’s AI products said. Only a small proportion of subscribers to Microsoft’s enterprise suite use Copilot, and the percentage who favor it over Google’s Gemini or other tools has decreased in recent months, according to data reviewed by the Journal. 
+
+The stakes are high for Microsoft because Copilot is core to a push by Chief Executive Satya Nadella to transform Microsoft into an AI-first company, much as he transformed it into a cloud-first company around a decade ago. Copilot is one of Nadella’s top priorities, current and former executives said.
+
+Microsoft shares tumbled after its earnings report last week sparked investor concern that growth in its most important unit, the Azure cloud-computing business, is slowing, and that its AI business is reliant on OpenAI while Copilot remains unproven. Shares fell nearly 3% Tuesday amid a slide in software stocks prompted by fresh concerns that AI tools will make enterprise subscriptions less necessary.
+
+“We have moved past the initial phase of discovery” of AI, Nadella wrote in a December blog post, adding that the industry was entering a phase where “we are beginning to distinguish between ‘spectacle’ and ‘substance.’”
+
+Even if Microsoft is so far lagging behind in the chatbot race, it is still making many billions from AI-driven cloud-computing demand, keeping it among the world’s most valuable companies. And analysts see the company as well positioned to close the gap because its productivity software is used by hundreds of millions of corporate users, a captive audience to whom it can easily promote new AI products.
+
+Chad A. Morganlander, senior portfolio manager at Microsoft investor Washington Crossing Advisors, said that while Copilot is struggling now, “our bet is they have this embedded client base, and that they will get it wrong until they get it right. They have plenty of money for the marathon.”
+
+Microsoft has several versions of Copilot that are woven into apps and services, including its 365 productivity tools such as PowerPoint, and the GitHub developer platform. There is also a consumer-facing version available through its Edge browser and via an app.
+
+The different Copilots are divided into three main categories: the enterprise tools Microsoft sells to companies and professionals, Copilots for developers and IT personnel and the general consumer chatbot led by Microsoft AI CEO Mustafa Suleyman. 
+
+Microsoft hired Suleyman in 2024 to oversee its consumer AI products and build AI models that could compete with those of OpenAI and others. So far, Microsoft has relied on OpenAI and its competitor, Anthropic, to power its various Copilots and has said it would use the best models available.
+
+Last week, Microsoft reported that it had sold 15 million Microsoft 365 Copilot “seats.” Its Microsoft 365 business has a base of 450 million-plus paid seats overall. The company late last year said it had more than 150 million monthly active Copilot users across its first-party platforms. Google’s Gemini has more than 650 million monthly users, while ChatGPT has about 900 million weekly active users.
+
+Previously unreported data shows that Copilot subscribers, including those with corporate accounts, are increasingly favoring competing options.
+
+From last July through late January, the percentage of Copilot subscribers who use the product as a primary option decreased from 18.8% to 11.5%, according to a survey of more than 150,000 respondents in the U.S. by market research firm Recon Analytics. This happened while the share of paid users who choose Google’s Gemini as the first option increased from 12.8% to 15.7%.
+
+Those surveyed who switched from Copilot said they found better quality elsewhere, with some citing poor user experience and restrictive usage limits. Workers who have access to subscriptions for Copilot, ChatGPT and Gemini choose ChatGPT and Gemini at a higher rate than Copilot, the Recon data shows.
+
+Some companies are using only about 10% of the Copilot subscription seats they are paying for, according to a recent note by analysts at Citi Research. “Disorganized data silos” have been an issue for Copilot, analysts wrote.
+
+In an interview, Jared Spataro, Microsoft’s chief marketing officer of AI at work, said daily active usage of 365 Copilot has grown 10-fold year-over-year and is outpacing growth of other 365 enterprise offerings. Spataro challenged Citi’s findings, saying, “The pace of growth that we’re seeing is unlike anything we’ve seen before,” but he declined to provide specific figures.
+
+Customer surveys by Microsoft have shown that users have been confused by the multiple versions of Copilot, people familiar with the matter said. Some users have long complained about Copilot being forced onto them, popping up on everything from documents to the browser.
+
+One issue cited by current and former employees is the lack of a cohesive experience across the different Copilots, a user pain point Nadella has flagged in the past. About a year ago, Nadella sent a frustrated email to Rajesh Jha, executive vice president of experiences and devices, detailing an incident in which Nadella had asked the enterprise version of Copilot on the Edge browser to help with a public webpage he was on, but it couldn’t fulfill his prompt, according to people familiar with the email.
+
+The issue Nadella raised was resolved, but similar interoperability difficulties persist for users.
+
+In recent weeks, a new AI product from Anthropic called Claude Cowork has drawn praise for its ability to work in and across 365 applications in the ways Copilot users have found difficult. The release of new Cowork features was a factor behind Tuesday’s slide in software stocks. Microsoft product leaders have held discussions about Cowork, and the company has internally worked on a similar product, a person familiar with the matter said.  
+
+Spataro, the chief marketing officer, said separation between the 365 Copilot and the consumer version is by design so that users can keep their work and personal information separate. 
+
+
+Some employees said an organizational silo between Suleyman’s consumer-focused team and teams working on enterprise versions has made it challenging to achieve a unified vision.
+
+The effort to train proprietary models has also been hampered by a shortage of computing capacity, with the company rationing server time to ensure availability for OpenAI and other customers of its Azure cloud service. On a number of benchmark tests, Microsoft’s flagship proprietary AI model ranks well below competitors. 
+
+In an interview, Scott Guthrie, executive vice president of Microsoft’s Cloud and AI Group, noted that Suleyman’s team was only created in 2024. He said the long timeline involved in building cloud infrastructure explained the team’s lack of computing capacity until recently.
+
+In its recent earnings report, Microsoft said it was allocating more computing power to improve its Copilot products as it had gained confidence in its ability to monetize them, but shareholders aren’t yet showing that they buy that trade-off, according to a note from investment firm UBS.
+
+One place Microsoft is having success getting more people to use Copilot is within its own workforce. Nadella has urged company leaders and staff to lean into AI tools as part of what the company calls a push to be a “frontier firm.” Microsoft has instructed managers to include questions about AI use in performance discussions, and employees are asked to quantify how they are using AI tools like Copilot in their workflows, according to people familiar with the matter.
+
+Pam Maynard, chief AI transformation officer for Microsoft’s Customer and Partner Solutions organization, said the adoption rate within Microsoft’s sales organization has gone from about 20% to more than 70% in the past year as more employees have become comfortable using AI. 
+
+The company, which laid off more than 15,000 workers last year, created a boot camp for software engineers, designers and product managers to immerse themselves in the latest AI tools, with the goal of using AI to work more efficiently together. 
+
+The camp is about “getting people really comfortable with changing their mindset from ‘I used to think of myself as a great coder, now I’m a product builder,’” Katy George, corporate vice president of workforce transformation, said in an interview.
+
+George, whose team was created last year, said Microsoft has found frequent AI use correlates to success in divisions such as sales. 
+
+While employee use might lead to a more AI-literate workforce and help refine the product, Microsoft still needs more consumer and business users to choose Copilot.
+
+To that end, Microsoft has been spending heavily to increase the brand’s visibility. In 2025, it spent roughly $60 million on television ads for Copilot, according to ad tracker iSpot. In comparison, it spent less than $1 million on ads for LinkedIn, its next-most-heavily advertised brand on TV.
+
+On Sunday, the company plans to run an ad for Copilot during the Super Bowl, its second since 2024. A 30-second spot during the game can cost more than $8 million.
+
+Copyright ©2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8
+Appeared in the February 5, 2026, print edition as 'Microsoft’s Pivotal AI Product Is Running Into Big Problems'.
+
+Sebastian Herrera covers technology for The Wall Street Journal from the San Francisco area, with a focus on Microsoft, artificial intelligence and cloud computing. He writes about how AI is transforming the way people work and live, its promises and risks and the massive amounts of money being spent on AI infrastructure. He also reports on how tech leaders are shaping Silicon Valley and beyond.
