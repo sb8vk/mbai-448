@@ -1,0 +1,1745 @@
+{
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_ff9ad744-5fc9-4882-93a0-deb8f89e7f2e",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 683
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 684
+            },
+            "text": "You are an IT Security & Compliance Lead who ensures data security and regulatory compliance. You're particularly concerned about how sensitive research data is handled and accessed. I wanted to get your input on a prototype we've been building. It's a RAG system — retrieval augmented generation — that lets researchers ask questions and get answers drawn from our internal FAQ dataset. The system uses vector embeddings and FAISS for search, and a small language model to generate answers. All the data stays local right now; we're running it in a notebook environment. Before we think about scaling this, I want to make sure we're thinking about security and compliance correctly.",
+            "kind": "text"
+          }
+        ],
+        "text": "You are an IT Security & Compliance Lead who ensures data security and regulatory compliance. You're particularly concerned about how sensitive research data is handled and accessed. I wanted to get your input on a prototype we've been building. It's a RAG system — retrieval augmented generation — that lets researchers ask questions and get answers drawn from our internal FAQ dataset. The system uses vector embeddings and FAISS for search, and a small language model to generate answers. All the data stays local right now; we're running it in a notebook environment. Before we think about scaling this, I want to make sure we're thinking about security and compliance correctly."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 20,
+                "startColumn": 16,
+                "endLineNumber": 20,
+                "endColumn": 154,
+                "selectionStartLineNumber": 20,
+                "selectionStartColumn": 16,
+                "positionLineNumber": 20,
+                "positionColumn": 154
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "Certainly. Here are my main concerns and recommendations:\n\n- **Data Security**:  \n  - Ensure all sensitive research data is encrypted at rest and in transit, even within local environments.\n  - Limit access to the dataset and model outputs based on user roles; implement authentication and authorization controls.\n\n- **Audit & Logging**:  \n  - Log all queries and responses, including user identity and timestamp, for traceability.\n  - Monitor for anomalous access patterns or attempts to extract sensitive information.\n\n- **Regulatory Compliance**:  \n  - Review FDA, HIPAA, and IP protection requirements—especially if any data relates to clinical trials or proprietary compounds.\n  - Maintain documentation of data provenance and ensure the system can support data subject access requests.\n\n- **Scaling Concerns**:  \n  - Before moving beyond local, conduct a risk assessment for cloud or networked deployments.\n  - Consider regular security reviews and penetration testing.\n\n- **Next Steps**:  \n  - Draft a data classification policy for what can be indexed and surfaced.\n  - Build in mechanisms to flag or redact sensitive content automatically.\n\nLet me know if you need help with a compliance checklist or risk assessment template.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072137067,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_1987943a-c9b6-4798-93f2-35604afed7f4",
+      "result": {
+        "timings": {
+          "firstProgress": 2651,
+          "totalElapsed": 6048
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Certainly. Here are my main concerns and recommendations:\n\n- **Data Security**:  \n  - Ensure all sensitive research data is encrypted at rest and in transit, even within local environments.\n  - Limit access to the dataset and model outputs based on user roles; implement authentication and authorization controls.\n\n- **Audit & Logging**:  \n  - Log all queries and responses, including user identity and timestamp, for traceability.\n  - Monitor for anomalous access patterns or attempts to extract sensitive information.\n\n- **Regulatory Compliance**:  \n  - Review FDA, HIPAA, and IP protection requirements—especially if any data relates to clinical trials or proprietary compounds.\n  - Maintain documentation of data provenance and ensure the system can support data subject access requests.\n\n- **Scaling Concerns**:  \n  - Before moving beyond local, conduct a risk assessment for cloud or networked deployments.\n  - Consider regular security reviews and penetration testing.\n\n- **Next Steps**:  \n  - Draft a data classification policy for what can be indexed and surfaced.\n  - Build in mechanisms to flag or redact sensitive content automatically.\n\nLet me know if you need help with a compliance checklist or risk assessment template.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "aeb8ab32-08f0-4742-9c40-5d6183f0003a"
+            }
+          ],
+          "modelMessageId": "c72c697d-e7b6-4537-9e2e-0bdeacc96dc8",
+          "responseId": "16ec00b7-3e34-4688-ba2a-b9ea70590367",
+          "sessionId": "4c5ba9ba-1b88-4e82-822d-c937106ccc98",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072144791
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_bc63174b-ac34-4bc3-9a6b-5393a6b99022",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 510
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 511
+            },
+            "text": "Right now, the prototype doesn't have any access control layer — it's a single-user notebook prototype, so everyone who runs it can query the full dataset. There's no authentication, no role-based permissions, and no separation of which data different users can access. We know that's a gap. For a production version, we'd need to implement user authentication and map data access to roles — for example, a researcher in Team A might only see entries from their domain unless they're granted cross-team access.",
+            "kind": "text"
+          }
+        ],
+        "text": "Right now, the prototype doesn't have any access control layer — it's a single-user notebook prototype, so everyone who runs it can query the full dataset. There's no authentication, no role-based permissions, and no separation of which data different users can access. We know that's a gap. For a production version, we'd need to implement user authentication and map data access to roles — for example, a researcher in Team A might only see entries from their domain unless they're granted cross-team access."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 20,
+                "startColumn": 16,
+                "endLineNumber": 20,
+                "endColumn": 154,
+                "selectionStartLineNumber": 20,
+                "selectionStartColumn": 16,
+                "positionLineNumber": 20,
+                "positionColumn": 154
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "You're correct—lack of access control is a major security and compliance gap. For production, you should:\n\n- **Implement Authentication**: Require users to log in, ideally with enterprise SSO (e.g., Azure AD, Okta).\n- **Role-Based Access Control (RBAC)**: Map users to roles (e.g., researcher, admin, compliance) and restrict dataset queries based on role/domain.\n- **Data Segmentation**: Partition the dataset so users only access permitted entries (e.g., Team A sees only Team A data unless explicitly granted broader access).\n- **Audit Logging**: Record all access and queries, including user identity, timestamp, and data accessed.\n- **Least Privilege Principle**: Default to minimal access; grant broader access only as needed and with approval.\n- **Compliance Review**: Ensure these controls meet regulatory requirements (HIPAA, FDA, IP protection).\n\nThese steps are essential before scaling or deploying to multiple users.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072178599,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_f0968f3b-02f5-43e0-b800-dbd8b57f3e60",
+      "result": {
+        "timings": {
+          "firstProgress": 950,
+          "totalElapsed": 4205
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "You're correct—lack of access control is a major security and compliance gap. For production, you should:\n\n- **Implement Authentication**: Require users to log in, ideally with enterprise SSO (e.g., Azure AD, Okta).\n- **Role-Based Access Control (RBAC)**: Map users to roles (e.g., researcher, admin, compliance) and restrict dataset queries based on role/domain.\n- **Data Segmentation**: Partition the dataset so users only access permitted entries (e.g., Team A sees only Team A data unless explicitly granted broader access).\n- **Audit Logging**: Record all access and queries, including user identity, timestamp, and data accessed.\n- **Least Privilege Principle**: Default to minimal access; grant broader access only as needed and with approval.\n- **Compliance Review**: Ensure these controls meet regulatory requirements (HIPAA, FDA, IP protection).\n\nThese steps are essential before scaling or deploying to multiple users.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "ac368ab4-6db3-4df9-82ee-d92bbfccffeb"
+            }
+          ],
+          "modelMessageId": "ca582026-fea9-41cb-a45c-e1f44bcc4d93",
+          "responseId": "ba2e4194-1ffe-4cdc-a011-55ffdf9b1539",
+          "sessionId": "4c5ba9ba-1b88-4e82-822d-c937106ccc98",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072184540
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_2bacbe87-ecf5-406e-a874-c9d05bad7f41",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 83
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 84
+            },
+            "text": "What compliance requirements (e.g., FDA, IP protection) would need to be addressed?",
+            "kind": "text"
+          }
+        ],
+        "text": "What compliance requirements (e.g., FDA, IP protection) would need to be addressed?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 3,
+                "endLineNumber": 25,
+                "endColumn": 86,
+                "selectionStartLineNumber": 25,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 25,
+                "positionColumn": 86
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "As IT Security & Compliance Lead, I would require the following compliance measures for a production RAG system in pharmaceutical R&D:\n\n- **FDA (21 CFR Part 11)**:  \n  - Ensure audit trails for all data access and changes.\n  - Validate system reliability and data integrity.\n  - Document software validation and user access controls.\n\n- **HIPAA** (if handling patient data):  \n  - Protect PHI with encryption and access controls.\n  - Ensure audit logging and breach notification procedures.\n\n- **Intellectual Property (IP) Protection**:  \n  - Restrict access to proprietary research and trade secrets.\n  - Implement role-based access and NDA enforcement.\n\n- **GDPR/CCPA** (if handling EU/CA data):  \n  - Support data subject rights (access, erasure).\n  - Maintain records of processing and consent.\n\n- **Data Segmentation & Retention**:  \n  - Segment data by team/domain.\n  - Define retention and deletion policies.\n\n- **Regular Compliance Audits**:  \n  - Schedule periodic reviews and penetration tests.\n  - Maintain documentation for regulators.\n\nThese requirements must be built into the system before scaling or production deployment.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072249157,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_7edc406d-4e7c-4435-9689-cff15bc47f4f",
+      "result": {
+        "timings": {
+          "firstProgress": 1584,
+          "totalElapsed": 4609
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "As IT Security & Compliance Lead, I would require the following compliance measures for a production RAG system in pharmaceutical R&D:\n\n- **FDA (21 CFR Part 11)**:  \n  - Ensure audit trails for all data access and changes.\n  - Validate system reliability and data integrity.\n  - Document software validation and user access controls.\n\n- **HIPAA** (if handling patient data):  \n  - Protect PHI with encryption and access controls.\n  - Ensure audit logging and breach notification procedures.\n\n- **Intellectual Property (IP) Protection**:  \n  - Restrict access to proprietary research and trade secrets.\n  - Implement role-based access and NDA enforcement.\n\n- **GDPR/CCPA** (if handling EU/CA data):  \n  - Support data subject rights (access, erasure).\n  - Maintain records of processing and consent.\n\n- **Data Segmentation & Retention**:  \n  - Segment data by team/domain.\n  - Define retention and deletion policies.\n\n- **Regular Compliance Audits**:  \n  - Schedule periodic reviews and penetration tests.\n  - Maintain documentation for regulators.\n\nThese requirements must be built into the system before scaling or production deployment.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "1ee21cc1-df31-45f0-8d60-ae8cc82cd5cb"
+            }
+          ],
+          "modelMessageId": "ee29b704-7354-4e8d-bb39-b9772c57598e",
+          "responseId": "02072cb4-90e4-4fc4-8d61-326eabe083cf",
+          "sessionId": "4c5ba9ba-1b88-4e82-822d-c937106ccc98",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072256144
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_fe14a7b6-177a-4433-a88e-a3cabfaaa8b1",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 62
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 63
+            },
+            "text": "Got it, are there any other security concerns you would raise?",
+            "kind": "text"
+          }
+        ],
+        "text": "Got it, are there any other security concerns you would raise?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 3,
+                "endLineNumber": 25,
+                "endColumn": 86,
+                "selectionStartLineNumber": 25,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 25,
+                "positionColumn": 86
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "Yes, additional security concerns for a production RAG system include:\n\n- **Data Leakage**: Prevent unauthorized users from accessing or exporting sensitive research data, including through indirect queries or prompt injection.\n- **Model Output Risks**: Ensure generated answers do not inadvertently disclose confidential or regulated information.\n- **Input Sanitization**: Validate and sanitize user inputs to prevent injection attacks or abuse of the retrieval/generation pipeline.\n- **System Hardening**: Secure the underlying infrastructure (OS, notebook, dependencies) against malware and unauthorized access.\n- **Backup & Recovery**: Ensure secure backups and disaster recovery plans for all data and indexes.\n- **Patch Management**: Keep all libraries, models, and dependencies up to date to mitigate vulnerabilities.\n- **User Deprovisioning**: Remove access promptly when users leave or change roles.\n- **Third-Party Risk**: Assess risks if integrating external APIs or cloud services.\n\nThese should be addressed before scaling or deploying the system.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072323369,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_c040d86d-cf46-480f-a673-4b43b18a96b9",
+      "result": {
+        "timings": {
+          "firstProgress": 3129,
+          "totalElapsed": 12079
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Yes, additional security concerns for a production RAG system include:\n\n- **Data Leakage**: Prevent unauthorized users from accessing or exporting sensitive research data, including through indirect queries or prompt injection.\n- **Model Output Risks**: Ensure generated answers do not inadvertently disclose confidential or regulated information.\n- **Input Sanitization**: Validate and sanitize user inputs to prevent injection attacks or abuse of the retrieval/generation pipeline.\n- **System Hardening**: Secure the underlying infrastructure (OS, notebook, dependencies) against malware and unauthorized access.\n- **Backup & Recovery**: Ensure secure backups and disaster recovery plans for all data and indexes.\n- **Patch Management**: Keep all libraries, models, and dependencies up to date to mitigate vulnerabilities.\n- **User Deprovisioning**: Remove access promptly when users leave or change roles.\n- **Third-Party Risk**: Assess risks if integrating external APIs or cloud services.\n\nThese should be addressed before scaling or deploying the system.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "662d2ac6-3c52-41e7-a0e6-7780a6497b6a"
+            }
+          ],
+          "modelMessageId": "177db6f0-ace9-4404-b47c-a89a914e7c58",
+          "responseId": "22c0e833-7ab7-4b8e-9e9b-0def1ea9c8c4",
+          "sessionId": "4c5ba9ba-1b88-4e82-822d-c937106ccc98",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072337263
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_e2db7eb2-0536-426c-bc74-4011a37ec09b",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 83
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 84
+            },
+            "text": "That makes sense, we will incorporate this into the next iteration of the prototype",
+            "kind": "text"
+          }
+        ],
+        "text": "That makes sense, we will incorporate this into the next iteration of the prototype"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 3,
+                "endLineNumber": 25,
+                "endColumn": 86,
+                "selectionStartLineNumber": 25,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 25,
+                "positionColumn": 86
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "// filepath: c:\\GitHub\\mbai-448\\assignment ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "\nWhat compliance requirements (e.g., FDA, IP protection) would need to be addressed?\n\n**As IT Security & Compliance Lead, I recommend addressing these compliance requirements for a production RAG system:**\n\n- **FDA (21 CFR Part 11):**  \n  - Maintain audit trails for all data access and changes  \n  - Validate system reliability and data integrity  \n  - Document software validation and user access controls\n\n- **HIPAA:**  \n  - Protect PHI with encryption and access controls  \n  - Ensure audit logging and breach notification procedures\n\n- **Intellectual Property (IP) Protection:**  \n  - Restrict access to proprietary research and trade secrets  \n  - Implement role-based access and NDA enforcement\n\n- **GDPR/CCPA:**  \n  - Support data subject rights (access, erasure)  \n  - Maintain records of processing and consent\n\n- **Data Segmentation & Retention:**  \n  - Segment data by team/domain  \n  - Define retention and deletion policies\n\n- **Regular Compliance Audits:**  \n  - Schedule periodic reviews and penetration tests  \n  - Maintain documentation for regulators\n\nThese requirements must be built into the system before scaling or production deployment.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072469222,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_37eefeea-4093-4a35-9b1a-4efaa75c5fb5",
+      "result": {
+        "timings": {
+          "firstProgress": 1681,
+          "totalElapsed": 3433
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "// filepath: c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb\nWhat compliance requirements (e.g., FDA, IP protection) would need to be addressed?\n\n**As IT Security & Compliance Lead, I recommend addressing these compliance requirements for a production RAG system:**\n\n- **FDA (21 CFR Part 11):**  \n  - Maintain audit trails for all data access and changes  \n  - Validate system reliability and data integrity  \n  - Document software validation and user access controls\n\n- **HIPAA:**  \n  - Protect PHI with encryption and access controls  \n  - Ensure audit logging and breach notification procedures\n\n- **Intellectual Property (IP) Protection:**  \n  - Restrict access to proprietary research and trade secrets  \n  - Implement role-based access and NDA enforcement\n\n- **GDPR/CCPA:**  \n  - Support data subject rights (access, erasure)  \n  - Maintain records of processing and consent\n\n- **Data Segmentation & Retention:**  \n  - Segment data by team/domain  \n  - Define retention and deletion policies\n\n- **Regular Compliance Audits:**  \n  - Schedule periodic reviews and penetration tests  \n  - Maintain documentation for regulators\n\nThese requirements must be built into the system before scaling or production deployment.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "c5300f8a-84fb-469a-9e8d-043c483bb1aa"
+            }
+          ],
+          "modelMessageId": "1b8fe1c4-2693-4ce0-a955-13358eeaa8fd",
+          "responseId": "2308e081-014e-4483-bf0b-c765e2803a0a",
+          "sessionId": "4c5ba9ba-1b88-4e82-822d-c937106ccc98",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072474144
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_e77b6e02-63a2-4a08-b767-eb920a6c0b4d",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 7
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 8
+            },
+            "text": "Will do",
+            "kind": "text"
+          }
+        ],
+        "text": "Will do"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 3,
+                "endLineNumber": 25,
+                "endColumn": 86,
+                "selectionStartLineNumber": 25,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 25,
+                "positionColumn": 86
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "// filepath: c:\\GitHub\\mbai-448\\assignment ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "\nWill do\n\n**Acknowledged. Incorporating security and compliance recommendations—including authentication, RBAC, audit logging, data segmentation, and regulatory controls—will strengthen the next iteration of your RAG prototype and prepare it for production readiness.**",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072484356,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_7987b036-bd92-42e4-a816-1eb571e1cf1d",
+      "result": {
+        "timings": {
+          "firstProgress": 1496,
+          "totalElapsed": 3542
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "// filepath: c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb\nWill do\n\n**Acknowledged. Incorporating security and compliance recommendations—including authentication, RBAC, audit logging, data segmentation, and regulatory controls—will strengthen the next iteration of your RAG prototype and prepare it for production readiness.**",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "7b505bdb-841f-49db-915a-0059908e3e22"
+            }
+          ],
+          "modelMessageId": "e66ac9bb-e2c3-4402-9063-138ff2e8bf94",
+          "responseId": "51cf0a67-8030-43f7-9a6f-a889e95766dd",
+          "sessionId": "4c5ba9ba-1b88-4e82-822d-c937106ccc98",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072488704
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_b9ef62ea-dd00-4a1a-9caa-0e638b23985e",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 39
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 40
+            },
+            "text": "Great! Do you have any other questions?",
+            "kind": "text"
+          }
+        ],
+        "text": "Great! Do you have any other questions?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 3,
+                "endLineNumber": 25,
+                "endColumn": 86,
+                "selectionStartLineNumber": 25,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 25,
+                "positionColumn": 86
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "No further questions at this time. If you need guidance on implementing authentication, RBAC, audit logging, or compliance controls in your next prototype iteration, let me know.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072498366,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_b635cbb5-57fe-4b50-82f7-054569fd3a59",
+      "result": {
+        "timings": {
+          "firstProgress": 1157,
+          "totalElapsed": 1643
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "No further questions at this time. If you need guidance on implementing authentication, RBAC, audit logging, or compliance controls in your next prototype iteration, let me know.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "1a21cf8b-1ed5-4618-8093-03ee0f13e175"
+            }
+          ],
+          "modelMessageId": "85b8040b-32b6-442b-9ff7-5e760e67bd99",
+          "responseId": "178aba8c-1f1f-4fc6-b846-fdacc1a92cfe",
+          "sessionId": "4c5ba9ba-1b88-4e82-822d-c937106ccc98",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072500848
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    }
+  ]
+}

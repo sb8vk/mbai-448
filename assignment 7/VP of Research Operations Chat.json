@@ -1,0 +1,1964 @@
+{
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_dd710082-d03d-4ad0-916f-992a4fdb5255",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 677
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 678
+            },
+            "text": "You are a VP of Research Operations responsible for research efficiency and cross-team collaboration. They're excited about the potential but need to understand the business case and risks. I have an update on the knowledge access prototype we've been building. The idea is to make it easy for researchers across different teams to tap into each other's expertise without scheduling meetings or digging through shared drives. We built a system that takes a question in plain English, finds the most relevant entries from our internal FAQ data, and generates a readable answer with source links. I wanted to talk through what it would take to make a real business case for this.",
+            "kind": "text"
+          }
+        ],
+        "text": "You are a VP of Research Operations responsible for research efficiency and cross-team collaboration. They're excited about the potential but need to understand the business case and risks. I have an update on the knowledge access prototype we've been building. The idea is to make it easy for researchers across different teams to tap into each other's expertise without scheduling meetings or digging through shared drives. We built a system that takes a question in plain English, finds the most relevant entries from our internal FAQ data, and generates a readable answer with source links. I wanted to talk through what it would take to make a real business case for this."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 31,
+                "startColumn": 19,
+                "endLineNumber": 31,
+                "endColumn": 171,
+                "selectionStartLineNumber": 31,
+                "selectionStartColumn": 19,
+                "positionLineNumber": 31,
+                "positionColumn": 171
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "Certainly! As VP of Research Operations, here’s what I’d want to see for a strong business case:\n\n- **ROI Justification**: Quantify time saved per researcher, reduction in duplicated work, and faster project cycles. Show how improved access translates to measurable productivity gains or cost savings.\n\n- **Success Metrics**: Define KPIs—such as adoption rate, number of cross-team queries, user satisfaction, and impact on project outcomes. Track how often the system is used and whether it leads to actionable insights.\n\n- **Risk Assessment**: Identify risks—data quality, misinterpretation, privacy, and system reliability. Outline mitigation strategies (e.g., source attribution, confidence thresholds, governance).\n\n- **Governance Structure**: Propose oversight—who approves content, how updates are managed, and how feedback is incorporated. Ensure there’s a clear process for maintaining accuracy and compliance.\n\n- **Scalability & Integration**: Explain how the prototype could scale to more data types and integrate with existing tools (e.g., Slack, SharePoint).\n\n- **Stakeholder Buy-In**: Include pilot feedback from researchers and IT/security. Demonstrate alignment with broader business goals.\n\nIf you can provide these elements, it will help justify investment and guide deployment decisions.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072618412,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_132af098-b801-4d4c-aa46-d865bc74c966",
+      "result": {
+        "timings": {
+          "firstProgress": 1401,
+          "totalElapsed": 10153
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Certainly! As VP of Research Operations, here’s what I’d want to see for a strong business case:\n\n- **ROI Justification**: Quantify time saved per researcher, reduction in duplicated work, and faster project cycles. Show how improved access translates to measurable productivity gains or cost savings.\n\n- **Success Metrics**: Define KPIs—such as adoption rate, number of cross-team queries, user satisfaction, and impact on project outcomes. Track how often the system is used and whether it leads to actionable insights.\n\n- **Risk Assessment**: Identify risks—data quality, misinterpretation, privacy, and system reliability. Outline mitigation strategies (e.g., source attribution, confidence thresholds, governance).\n\n- **Governance Structure**: Propose oversight—who approves content, how updates are managed, and how feedback is incorporated. Ensure there’s a clear process for maintaining accuracy and compliance.\n\n- **Scalability & Integration**: Explain how the prototype could scale to more data types and integrate with existing tools (e.g., Slack, SharePoint).\n\n- **Stakeholder Buy-In**: Include pilot feedback from researchers and IT/security. Demonstrate alignment with broader business goals.\n\nIf you can provide these elements, it will help justify investment and guide deployment decisions.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "aded7a31-7aae-41a1-ad7b-46b1c5365621"
+            }
+          ],
+          "modelMessageId": "f30377d8-0eba-4b7d-a2cc-a768d96253ae",
+          "responseId": "23c8c70b-ef23-474a-9d5d-717433c67586",
+          "sessionId": "8523024c-6cde-4228-8ecd-f51f9063cc3c",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072629996
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_4b3d93a2-7160-4d5f-a361-fdc3889f821a",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 54
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 55
+            },
+            "text": "What ROI would they need to see to justify deployment?",
+            "kind": "text"
+          }
+        ],
+        "text": "What ROI would they need to see to justify deployment?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 34,
+                "startColumn": 3,
+                "endLineNumber": 34,
+                "endColumn": 57,
+                "selectionStartLineNumber": 34,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 34,
+                "positionColumn": 57
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "kind": "progressTaskSerialized",
+          "content": {
+            "value": "Collecting workspace information",
+            "uris": {}
+          },
+          "progress": []
+        },
+        {
+          "value": "The VP of Research Operations would likely require a clear, quantifiable ROI to justify deploying the RAG system. This could include:\n\n- **Reduction in research time**: Demonstrable decrease in time spent searching for information across silos.\n- **Increase in cross-team collaboration**: Measurable uptick in shared knowledge and joint projects.\n- **Cost savings**: Lower operational costs due to improved efficiency and fewer duplicated efforts.\n- **Accelerated innovation**: Faster time-to-insight or product development cycles.\n\nThey would want to see that the system delivers value greater than its implementation and maintenance costs, ideally through metrics such as:\n\n- Percentage improvement in research productivity.\n- Number of successful cross-team initiatives enabled by the system.\n- Estimated dollar value of efficiency gains.\n\nFor deployment, the VP would expect a positive ROI—typically, at least a 2–3x return ($\\text{ROI} = \\frac{\\text{Net Benefit}}{\\text{Cost}}$)—within a reasonable timeframe (e.g., 12–18 months).",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072684696,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_88c65aa1-dabc-471c-9544-b1fa33dbca4c",
+      "result": {
+        "timings": {
+          "firstProgress": 1641,
+          "totalElapsed": 11259
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "The VP of Research Operations would likely require a clear, quantifiable ROI to justify deploying the RAG system. This could include:\n\n- **Reduction in research time**: Demonstrable decrease in time spent searching for information across silos.\n- **Increase in cross-team collaboration**: Measurable uptick in shared knowledge and joint projects.\n- **Cost savings**: Lower operational costs due to improved efficiency and fewer duplicated efforts.\n- **Accelerated innovation**: Faster time-to-insight or product development cycles.\n\nThey would want to see that the system delivers value greater than its implementation and maintenance costs, ideally through metrics such as:\n\n- Percentage improvement in research productivity.\n- Number of successful cross-team initiatives enabled by the system.\n- Estimated dollar value of efficiency gains.\n\nFor deployment, the VP would expect a positive ROI—typically, at least a 2–3x return ($\\text{ROI} = \\frac{\\text{Net Benefit}}{\\text{Cost}}$)—within a reasonable timeframe (e.g., 12–18 months).",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "3f2fbc9c-bd46-42cf-99f5-66def4890664"
+            }
+          ],
+          "modelMessageId": "82db0953-1e4c-47b1-9fdf-79dd37fd7cd3",
+          "responseId": "12a51a56-1595-4c0d-9284-bf806374f57f",
+          "sessionId": "58c4926b-1525-4607-ad0f-5f9d6573498d",
+          "agentId": "github.copilot.workspace"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072697558
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_9dd441f3-f067-479f-9cc2-f6a4bcbcf0ff",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 288
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 289
+            },
+            "text": "Got it, if we tracked average resolution time for cross-team information requests before and after deployment, that would be a concrete measure. We could also track adoption: how many unique users per week, how many queries, and whether repeat usage indicates the tool is actually useful.",
+            "kind": "text"
+          }
+        ],
+        "text": "Got it, if we tracked average resolution time for cross-team information requests before and after deployment, that would be a concrete measure. We could also track adoption: how many unique users per week, how many queries, and whether repeat usage indicates the tool is actually useful."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 34,
+                "startColumn": 3,
+                "endLineNumber": 34,
+                "endColumn": 57,
+                "selectionStartLineNumber": 34,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 34,
+                "positionColumn": 57
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "kind": "progressTaskSerialized",
+          "content": {
+            "value": "Collecting workspace information",
+            "uris": {}
+          },
+          "progress": []
+        },
+        {
+          "value": "Yes, those are strong, concrete ROI metrics for the VP of Research Operations:\n\n- **Average resolution time** for cross-team information requests (pre/post deployment).\n- **Adoption metrics**: unique users per week, total queries, repeat usage rates.\n\nThese measures directly reflect improved efficiency and user engagement, supporting the business case for deployment. For more details, see ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "name": "assignment 7/mbai448_week07_assignment.ipynb",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/C:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": ".",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          },
+          "uris": {}
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072719158,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_73ac7aca-f320-4885-adf5-caf69c710d49",
+      "result": {
+        "timings": {
+          "firstProgress": 1444,
+          "totalElapsed": 4091
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Yes, those are strong, concrete ROI metrics for the VP of Research Operations:\n\n- **Average resolution time** for cross-team information requests (pre/post deployment).\n- **Adoption metrics**: unique users per week, total queries, repeat usage rates.\n\nThese measures directly reflect improved efficiency and user engagement, supporting the business case for deployment. For more details, see [assignment 7/mbai448_week07_assignment.ipynb](assignment%207/mbai448_week07_assignment.ipynb).",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "f385d8d4-5580-4b95-a376-fd3a7ee69aa4"
+            }
+          ],
+          "modelMessageId": "9ffa7364-3be9-4783-be0e-17289b6b9d6e",
+          "responseId": "80ecac47-39ce-4e2a-aa93-8daf830fff8f",
+          "sessionId": "58c4926b-1525-4607-ad0f-5f9d6573498d",
+          "agentId": "github.copilot.workspace"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072724537
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_1bad27a5-89a7-4ed7-a587-78bf5861be2f",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 38
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 39
+            },
+            "text": "How would you want to measure success?",
+            "kind": "text"
+          }
+        ],
+        "text": "How would you want to measure success?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 34,
+                "startColumn": 3,
+                "endLineNumber": 34,
+                "endColumn": 57,
+                "selectionStartLineNumber": 34,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 34,
+                "positionColumn": 57
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "kind": "progressTaskSerialized",
+          "content": {
+            "value": "Collecting workspace information",
+            "uris": {}
+          },
+          "progress": []
+        },
+        {
+          "value": "The VP of Research Operations would want to measure success using clear, quantitative metrics such as:\n\n- **Reduction in average resolution time** for cross-team information requests.\n- **Adoption rates**: number of unique users per week, total queries, and repeat usage.\n- **User satisfaction**: survey feedback or Net Promoter Score (NPS).\n- **Increase in cross-team collaboration**: number of joint projects or shared knowledge artifacts.\n- **Operational cost savings**: estimated reduction in duplicated effort or manual search time.\n\nThese metrics can be tracked using system logs, user analytics, and periodic stakeholder surveys, as outlined in ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "name": "assignment 7/mbai448_week07_assignment.ipynb",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/C:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": ".",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          },
+          "uris": {}
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072735042,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_f8394dca-bcc8-4feb-98b7-890f3115de76",
+      "result": {
+        "timings": {
+          "firstProgress": 3147,
+          "totalElapsed": 11665
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "The VP of Research Operations would want to measure success using clear, quantitative metrics such as:\n\n- **Reduction in average resolution time** for cross-team information requests.\n- **Adoption rates**: number of unique users per week, total queries, and repeat usage.\n- **User satisfaction**: survey feedback or Net Promoter Score (NPS).\n- **Increase in cross-team collaboration**: number of joint projects or shared knowledge artifacts.\n- **Operational cost savings**: estimated reduction in duplicated effort or manual search time.\n\nThese metrics can be tracked using system logs, user analytics, and periodic stakeholder surveys, as outlined in [assignment 7/mbai448_week07_assignment.ipynb](assignment%207/mbai448_week07_assignment.ipynb).",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "e1683843-0910-46c9-9320-f6a914a5623b"
+            }
+          ],
+          "modelMessageId": "cabb38e3-cb88-4444-90b4-eed67e1ef03b",
+          "responseId": "935e93b5-4e3b-4f38-aba7-e1e4e3c4ac82",
+          "sessionId": "58c4926b-1525-4607-ad0f-5f9d6573498d",
+          "agentId": "github.copilot.workspace"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072747784
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_68133af5-a872-4ba7-b3e2-203b9cbcf000",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 60
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 61
+            },
+            "text": "What governance structure would they want around the system?",
+            "kind": "text"
+          }
+        ],
+        "text": "What governance structure would they want around the system?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 36,
+                "startColumn": 3,
+                "endLineNumber": 36,
+                "endColumn": 63,
+                "selectionStartLineNumber": 36,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 36,
+                "positionColumn": 63
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "kind": "progressTaskSerialized",
+          "content": {
+            "value": "Collecting workspace information",
+            "uris": {}
+          },
+          "progress": []
+        },
+        {
+          "value": "The VP of Research Operations would want a governance structure that ensures:\n\n- **Clear data ownership and stewardship**: Each team controls their own data, with defined roles for approving what is shared.\n- **Access controls**: Role-based permissions for who can query, view, or contribute information.\n- **Audit trails**: Comprehensive logging of system usage, queries, and responses for accountability.\n- **Periodic review**: Scheduled evaluations of system performance, data quality, and user feedback.\n- **Compliance oversight**: Alignment with regulatory and IP requirements, with regular compliance checks.\n\nThis structure would help balance collaboration, security, and accountability, as discussed in ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "name": "assignment 7/mbai448_week07_assignment.ipynb",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/C:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": ".",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          },
+          "uris": {}
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072762630,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_0f6500c6-377e-4633-b9ff-6dcc48fba573",
+      "result": {
+        "timings": {
+          "firstProgress": 1693,
+          "totalElapsed": 4167
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "The VP of Research Operations would want a governance structure that ensures:\n\n- **Clear data ownership and stewardship**: Each team controls their own data, with defined roles for approving what is shared.\n- **Access controls**: Role-based permissions for who can query, view, or contribute information.\n- **Audit trails**: Comprehensive logging of system usage, queries, and responses for accountability.\n- **Periodic review**: Scheduled evaluations of system performance, data quality, and user feedback.\n- **Compliance oversight**: Alignment with regulatory and IP requirements, with regular compliance checks.\n\nThis structure would help balance collaboration, security, and accountability, as discussed in [assignment 7/mbai448_week07_assignment.ipynb](assignment%207/mbai448_week07_assignment.ipynb).",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "ef16bdf5-a2b0-414e-adb7-e7f78f0ba150"
+            }
+          ],
+          "modelMessageId": "5816c41f-ac09-464e-ab20-702eaff51d25",
+          "responseId": "4c9a58cd-4ffa-42bc-847f-237967c6af07",
+          "sessionId": "58c4926b-1525-4607-ad0f-5f9d6573498d",
+          "agentId": "github.copilot.workspace"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072767669
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_d8ab8358-645c-4e13-93f4-19fea3bdc61d",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 51
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 52
+            },
+            "text": "This makes sense, what other questions do you have?",
+            "kind": "text"
+          }
+        ],
+        "text": "This makes sense, what other questions do you have?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 36,
+                "startColumn": 3,
+                "endLineNumber": 36,
+                "endColumn": 63,
+                "selectionStartLineNumber": 36,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 36,
+                "positionColumn": 63
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "As VP of Research Operations, I’d want to clarify:\n\n- How will data quality and accuracy be maintained as the system scales?\n- What is the plan for onboarding and training users?\n- How will feedback and improvement requests be handled?\n- What are the integration points with existing tools and workflows?\n- How will the system handle sensitive or proprietary information?\n- What resources (budget, staff, IT support) are needed for deployment and maintenance?\n- What is the timeline for pilot, evaluation, and broader rollout?\n\nThese questions help ensure the system delivers value, remains secure, and fits into our broader research operations strategy.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072802416,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_afaf48ed-f281-4c43-bcc6-fe37df0a0dd6",
+      "result": {
+        "timings": {
+          "firstProgress": 2490,
+          "totalElapsed": 8771
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "As VP of Research Operations, I’d want to clarify:\n\n- How will data quality and accuracy be maintained as the system scales?\n- What is the plan for onboarding and training users?\n- How will feedback and improvement requests be handled?\n- What are the integration points with existing tools and workflows?\n- How will the system handle sensitive or proprietary information?\n- What resources (budget, staff, IT support) are needed for deployment and maintenance?\n- What is the timeline for pilot, evaluation, and broader rollout?\n\nThese questions help ensure the system delivers value, remains secure, and fits into our broader research operations strategy.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "f076f9fe-989a-438c-b55b-e8c9583922ff"
+            }
+          ],
+          "modelMessageId": "e0e99374-c1ed-4c7c-ad18-60b6547234fe",
+          "responseId": "be7b4212-cf9d-469d-a92d-6d6b68ca9b24",
+          "sessionId": "58c4926b-1525-4607-ad0f-5f9d6573498d",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072812524
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_82b0669b-adcd-4447-96c3-8c9c3b7d49be",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 96
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 97
+            },
+            "text": "Thank you for the feedback, we'll incorporate this into the next implementation of the prototype",
+            "kind": "text"
+          }
+        ],
+        "text": "Thank you for the feedback, we'll incorporate this into the next implementation of the prototype"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: mbai-448\nOwner: sb8vk\nCurrent branch: main\nDefault branch: main",
+            "name": "sb8vk/mbai-448",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "sb8vk/mbai-448",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:mbai448_week07_assignment.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "external": "vscode-notebook-cell:/c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb#X65sZmlsZQ%3D%3D",
+                "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X65sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 36,
+                "startColumn": 3,
+                "endLineNumber": 36,
+                "endColumn": 63,
+                "selectionStartLineNumber": 36,
+                "selectionStartColumn": 3,
+                "positionLineNumber": 36,
+                "positionColumn": 63
+              }
+            },
+            "modelDescription": "User's active selection"
+          },
+          {
+            "id": "vscode.prompt.instructions.root__file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "name": "prompt:copilot-instructions.md",
+            "value": {
+              "$mid": 1,
+              "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+              "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+              "scheme": "file"
+            },
+            "kind": "promptFile",
+            "modelDescription": "Prompt instructions file",
+            "isRoot": true,
+            "originLabel": "Automatically attached as setting github.copilot.chat.codeGeneration.useInstructionFiles is enabled",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "// filepath: c:\\GitHub\\mbai-448\\assignment ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "\nThank you for the feedback, we'll incorporate this into the next implementation of the prototype.\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/C:/GitHub/mbai-448/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1772072841329,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_98b1ccee-3281-40cc-9fe1-96d83832c01d",
+      "result": {
+        "timings": {
+          "firstProgress": 6332,
+          "totalElapsed": 6509
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "// filepath: c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb\nThank you for the feedback, we'll incorporate this into the next implementation of the prototype.\n",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "cc5877a1-e702-43c2-863f-1a3783278db1"
+            }
+          ],
+          "modelMessageId": "2a2f8344-6202-4c46-abd3-8596d902f1c2",
+          "responseId": "e6e4c8ac-f5f8-4b89-a4fd-3a7384c33537",
+          "sessionId": "58c4926b-1525-4607-ad0f-5f9d6573498d",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1772072849342
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\.github\\copilot-instructions.md",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/.github/copilot-instructions.md",
+            "path": "/C:/GitHub/mbai-448/.github/copilot-instructions.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\GitHub\\mbai-448\\assignment 7\\mbai448_week07_assignment.ipynb",
+            "_sep": 1,
+            "external": "file:///c%3A/GitHub/mbai-448/assignment%207/mbai448_week07_assignment.ipynb",
+            "path": "/c:/GitHub/mbai-448/assignment 7/mbai448_week07_assignment.ipynb",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "sb8vk/mbai-448"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    }
+  ]
+}
